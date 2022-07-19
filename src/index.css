@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.TodoList {
+  padding-top: 10px;
+  width: 500px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.name {
+  cursor: pointer;
+
+
+}
+
+.task-complete {
+  text-decoration: line-through;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  outline: 0;
+}
+
+.task-status{
+  color: grey;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 10px auto;
+}
+
+input {
+  background: white;
+  padding: 20px 20px;
+  font-size: 1rem;
+  outline: 0;
+  border: 0;
+  flex: 1;
+}
+form{
+  display: flex;
+  padding-top: 10px;
+  width: 600px;
+  margin: auto;
+}
+form button{
+  color: black;
+  background:#fff;
+  outline: 0;
+  padding: 0 15px;
+
+}
+
+.blueText{
+  color: #00aaff;
+}
+.black{
+  color: black;
 }
